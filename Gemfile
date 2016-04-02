@@ -27,7 +27,7 @@ end
 
 
 group :development, :test do
-	gem 'debugger', '~> 1.6', '>= 1.6.8'
+	# gem 'debugger', '~> 1.6', '>= 1.6.8'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
