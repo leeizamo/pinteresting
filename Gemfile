@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'mime-types', '~> 2.99', '>= 2.99.1'
 gem 'bootstrap-sass'
+gem 'devise', '~> 3.5'
 
 group :development, :test do
      gem 'sqlite3'
@@ -26,9 +27,6 @@ end
 
 
 group :development, :test do
-  # Call 'debugger' anywhere in the code to stop execution and get a debugger console
-  gem 'debugger'
-
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
   
