@@ -77,10 +77,9 @@ Rails.application.configure do
 
   #Required for heroku
   #Set this to actual host - because it's in production
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'http://www.nuupad.com/' }
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-
 
 end
