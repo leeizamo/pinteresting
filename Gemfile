@@ -12,7 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'mime-types', '~> 2.99', '>= 2.99.1'
 gem 'bootstrap-sass'
-gem 'devise', '~> 3.1.0.rc2'
+gem 'devise', '~> 3.5'
 
 group :development, :test do
      gem 'sqlite3'
